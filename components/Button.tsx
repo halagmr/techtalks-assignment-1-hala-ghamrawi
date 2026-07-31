@@ -9,8 +9,8 @@ const JoinButton = () => {
         <button
             onClick={() => setJoined(!joined)}
             className={`mt-6 rounded-lg px-6 py-3 font-medium text-white transition-colors ${joined
-                    ? "bg-green-500 hover:bg-green-600"
-                    : "bg-purple-600 hover:bg-purple-700"
+                ? "bg-green-500 hover:bg-green-600"
+                : "bg-purple-600 hover:bg-purple-700"
                 }`}
         >
             {joined ? "Joined ✓" : "Join Community"}
@@ -19,3 +19,7 @@ const JoinButton = () => {
 };
 
 export default JoinButton;
+
+
+
+/*Fake join button/
